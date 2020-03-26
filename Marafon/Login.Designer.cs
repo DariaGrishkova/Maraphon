@@ -48,11 +48,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(287, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "MARAPHON SKILLS 2020";
+            this.label1.Text = "MARAPHON SKILLS 2021";
             // 
             // label2
             // 
@@ -151,7 +152,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(368, 269);
+            this.button2.Location = new System.Drawing.Point(380, 269);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 28);
             this.button2.TabIndex = 9;

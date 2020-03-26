@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace Marafon
 {
-    public partial class Runner : Form
+    public partial class CheckRunner : Form
     {
-        public Runner()
+        public CheckRunner()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Login Login = new Login();
+            Login.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -29,29 +31,10 @@ namespace Marafon
 
         private void button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
             Main Main = new Main();
             Main.Show();
-            this.Hide();
+            this.Hide();// изменить не на первую а на преддыдущюю 
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -61,16 +44,6 @@ namespace Marafon
             DateTime current_time = DateTime.Now;
             time1 = initial_time - current_time;
             time.Text = time1.Days.ToString() + " дней " + time1.Hours.ToString() + " часов и " + time1.Minutes.ToString() + " минут до старта марафона!";
-        }
-
-        private void time_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

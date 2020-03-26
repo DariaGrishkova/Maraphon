@@ -112,9 +112,10 @@
             // 
             // button7
             // 
+            this.button7.ForeColor = System.Drawing.Color.Black;
             this.button7.Location = new System.Drawing.Point(33, 12);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(95, 28);
+            this.button7.Size = new System.Drawing.Size(124, 38);
             this.button7.TabIndex = 6;
             this.button7.Text = "Назад";
             this.button7.UseVisualStyleBackColor = true;
@@ -137,7 +138,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 20);
             this.label1.TabIndex = 8;
-            this.label1.Text = "MARAPHON SKILLS 2020";
+            this.label1.Text = "MARAPHON SKILLS 2021";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
