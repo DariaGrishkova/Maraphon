@@ -30,7 +30,7 @@ namespace Marafon
             int login = 0;
             string role = "";
             using (SqlConnection conn = new
-            SqlConnection(WSR123.Properties.Settings.Default.WSR123ConnectionString))
+            SqlConnection(Marafon.Properties.Settings.Default.MaraphonConnectionString))
             {
                 conn.Open();
                 SqlCommand cmd = conn.CreateCommand();

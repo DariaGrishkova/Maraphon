@@ -35,7 +35,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.time = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,15 +94,15 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "MARAPHON SKILLS 2020";
             // 
-            // label2
+            // time
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(12, 329);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(296, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "0 дней 0 часов и 0 минут до старта марафона!";
+            this.time.AutoSize = true;
+            this.time.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.time.Location = new System.Drawing.Point(12, 329);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(296, 20);
+            this.time.TabIndex = 3;
+            this.time.Text = "0 дней 0 часов и 0 минут до старта марафона!";
             // 
             // CheckRunner
             // 
@@ -110,7 +110,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(605, 363);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.time);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -135,6 +135,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label time;
     }
 }

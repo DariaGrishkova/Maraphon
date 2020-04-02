@@ -42,5 +42,10 @@ namespace Marafon
             time1 = initial_time - current_time;
             time.Text = time1.Days.ToString() + " дней " + time1.Hours.ToString() + " часов и " + time1.Minutes.ToString() + " минут до старта марафона!";
         }
+
+        private void Coordinator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
